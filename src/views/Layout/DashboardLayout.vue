@@ -32,7 +32,7 @@
 
         <sidebar-item
           :link="{
-            name: 'User Profile',
+            name: 'Cadastro de professores',
             path: '/profile',
             icon: 'ni ni-single-02 text-yellow'
           }"
