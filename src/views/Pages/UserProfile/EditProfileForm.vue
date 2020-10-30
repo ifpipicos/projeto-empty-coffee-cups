@@ -17,8 +17,8 @@
           <b-col lg="6">
             <base-input
               type="text"
-              label="Username"
-              placeholder="Username"
+              label="Nome"
+              placeholder="Nome"
               v-model="user.username"
             >
             </base-input>
@@ -26,8 +26,8 @@
           <b-col lg="6">
             <base-input
               type="email"
-              label="Email address"
-              placeholder="mike@email.com"
+              label="E-mail"
+              placeholder="professor@email.com"
               v-model="user.email"
             >
             </base-input>
@@ -129,7 +129,7 @@ export default {
     return {
       user: {
         company: "Creative Code Inc.",
-        username: "michael23",
+        username: "Nome",
         email: "",
         firstName: "Mike",
         lastName: "Andrew",
