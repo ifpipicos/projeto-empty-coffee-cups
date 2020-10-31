@@ -2,75 +2,88 @@
   <card>
     <b-row align-v="center" slot="header">
       <b-col cols="8">
-        <h3 class="mb-0">Edit profile</h3>
+        <h3 class="mb-0">Cadastro</h3>
       </b-col>
       <b-col cols="4" class="text-right">
-        <a href="#!" class="btn btn-sm btn-primary">Settings</a>
+        <a href="#!" class="btn btn-sm btn-primary">Configurações</a>
       </b-col>
     </b-row>
 
     <b-form @submit.prevent="updateProfile">
-      <h6 class="heading-small text-muted mb-4">User information</h6>
+      <h6 class="heading-small text-muted mb-4">Cadastro de professores</h6>
 
       <div class="pl-lg-4">
         <b-row>
           <b-col lg="6">
             <base-input
               type="text"
-              label="Nome"
+              label="Nome *"
               placeholder="Nome"
               v-model="user.username"
             >
             </base-input>
           </b-col>
+        
+        
+          <b-col lg="6">
+            <base-input
+              type="text"
+              label="Apelido"
+              placeholder="Ex.: João"
+              v-model="user.NickName"
+            >
+            </base-input>
+          </b-col>
+        
+          
           <b-col lg="6">
             <base-input
               type="email"
-              label="E-mail"
+              label="E-mail *"
               placeholder="professor@email.com"
               v-model="user.email"
             >
             </base-input>
           </b-col>
         </b-row>
+      
+
+        <hr class="my-4">
+      
+        <h6 class="heading-small text-muted mb-4">Informações sobre o docente</h6>  
+    
         <b-row>
           <b-col lg="6">
             <base-input
               type="text"
-              label="First Name"
-              placeholder="First Name"
-              v-model="user.firstName"
+              label="Área de atuação *"
+              placeholder="Informática"
+              v-model="user.discipline"
             >
             </base-input>
           </b-col>
+
           <b-col lg="6">
             <base-input
-              type="text"
-              label="Last Name"
-              placeholder="Last Name"
-              v-model="user.lastName"
+              type="time"
+              label="Carga Horária"
+              placeholder="12:00"
+              v-model="user.workload"
             >
             </base-input>
           </b-col>
-        </b-row>
+        </b-row>  
       </div>
-      <hr class="my-4" />
 
-      <!-- Address -->
-      <h6 class="heading-small text-muted mb-4">Contact information</h6>
+
+
+      <!--<hr class="my-4" />
+
+       Address 
+      <h6 class="heading-small text-muted mb-4">Informações de contato</h6>
 
       <div class="pl-lg-4">
-        <b-row>
-          <b-col md="12">
-            <base-input
-              type="text"
-              label="Address"
-              placeholder="Home Address"
-              v-model="user.address"
-            >
-            </base-input>
-          </b-col>
-        </b-row>
+        
         <b-row>
           <b-col lg="4">
             <base-input
@@ -102,7 +115,7 @@
       </div>
 
       <hr class="my-4" />
-      <!-- Description -->
+      < Description 
       <h6 class="heading-small text-muted mb-4">About me</h6>
       <div class="pl-lg-4">
         <b-form-group
@@ -111,7 +124,7 @@
           class="mb-0"
           label-for="about-form-textaria"
         >
-          <!--  <label class="form-control-label">About Me</label> -->
+            <label class="form-control-label">About Me</label> 
           <b-form-textarea
             rows="4"
             value="A beautiful premium dashboard for BootstrapVue."
@@ -120,6 +133,7 @@
           ></b-form-textarea>
         </b-form-group>
       </div>
+      -->
     </b-form>
   </card>
 </template>
@@ -129,15 +143,11 @@ export default {
     return {
       user: {
         company: "Creative Code Inc.",
-        username: "Nome",
+        username: "",
         email: "",
-        firstName: "Mike",
-        lastName: "Andrew",
-        address: "Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09",
-        city: "New York",
-        country: "USA",
-        postalCode: "",
-        aboutMe: `Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo.`
+        NickName: "",
+        discipline: "",
+        workload: ""
       }
     };
   },
