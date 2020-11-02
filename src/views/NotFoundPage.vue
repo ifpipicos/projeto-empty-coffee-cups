@@ -5,8 +5,9 @@
       <b-container>
         <div class="header-body text-center mb-7">
           <b-row class="justify-content-center">
-            <b-col xl="5" lg="6" 
-md="6" class="px-5">
+            <b-col xl="5" 
+lg="6" md="6" 
+class="px-5">
               <h1 class="text-light">Ooops!</h1>
               <p class="text-lead text-white">
                 Page not found. Don't worry though, we have plenty of other

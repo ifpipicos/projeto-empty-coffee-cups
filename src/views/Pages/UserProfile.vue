@@ -23,7 +23,7 @@
 
     <b-container fluid class="mt--6">
       <b-row>
-      <!-- card 
+        <!-- card 
         <b-col xl="4" class="order-xl-2 mb-5">
           <user-card></user-card>
         </b-col>
