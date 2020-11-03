@@ -9,7 +9,7 @@
         background-position: center top;
       "
     >
-     <b-container fluid>
+      <b-container fluid>
         <!-- Mask -->
         <span class="mask bg-gradient-success opacity-8"></span>
 
@@ -24,26 +24,17 @@
             </b-col>
           </b-row>
         </b-container> -->
-      </b-container> 
+      </b-container>
     </div>
 
     <b-container fluid class="mt--6">
       <b-row>
-<<<<<<< HEAD
         <!-- card -->
-        <b-col xl="4" class="order-xl-2 mb-5">
+        <b-col class="order-xl-2 mb-5">
           <user-card></user-card>
         </b-col>
         <!-- cadastro dos professores
         <b-col xl="8" class="order-xl-1">
-=======
-        <!-- card 
-        <b-col xl="4" class="order-xl-2 mb-5">
-          <user-card></user-card>
-        </b-col>
-        -->
-        <b-col  class="order-xl-1">
->>>>>>> fee6e63072b6ca5938de3aaa5b77500092c51201
           <edit-profile-form></edit-profile-form>
         </b-col>
         -->
@@ -58,8 +49,8 @@ import UserCard from "./UserProfile/UserCard.vue";
 export default {
   components: {
     EditProfileForm,
-    UserCard,
-  },
+    UserCard
+  }
 };
 </script>
 <style></style>

@@ -5,9 +5,7 @@
       <b-container>
         <div class="header-body text-center mb-7">
           <b-row class="justify-content-center">
-            <b-col xl="5" 
-lg="6" md="8" 
-class="px-5">
+            <b-col xl="5" lg="6" md="8" class="px-5">
               <h1 class="text-white">Welcome!</h1>
               <p class="text-lead text-white">
                 Use these awesome forms to login or create new account in your
@@ -106,14 +104,12 @@ class="px-5">
           </b-card>
           <b-row class="mt-3">
             <b-col cols="6">
-              <router-link to="/dashboard" 
-class="text-light"
+              <router-link to="/dashboard" class="text-light"
                 ><small>Forgot password?</small></router-link
               >
             </b-col>
             <b-col cols="6" class="text-right">
-              <router-link to="/register" 
-class="text-light"
+              <router-link to="/register" class="text-light"
                 ><small>Create new account</small></router-link
               >
             </b-col>

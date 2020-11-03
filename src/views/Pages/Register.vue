@@ -5,9 +5,7 @@
       <b-container class="container">
         <div class="header-body text-center mb-7">
           <b-row class="justify-content-center">
-            <b-col xl="5" 
-lg="6" md="8" 
-class="px-5">
+            <b-col xl="5" lg="6" md="8" class="px-5">
               <h1 class="text-white">Create an account</h1>
               <p class="text-lead text-white">
                 Use these awesome forms to login or create new account in your
@@ -125,8 +123,8 @@ class="px-5">
                     </b-col>
                   </b-row>
                   <div class="text-center">
-                    <b-button type="submit" 
-variant="primary" class="mt-4"
+                    <b-button type="submit" variant="primary" 
+class="mt-4"
                       >Create account</b-button
                     >
                   </div>
