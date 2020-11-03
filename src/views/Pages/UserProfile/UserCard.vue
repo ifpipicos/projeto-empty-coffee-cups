@@ -4,20 +4,20 @@
       <b-col cols="8">
         <h3 class="mb-0">Lista de professores</h3>
       </b-col>
-      <b-col cols="4" class="text-right"> 
-      <a href="#!" class="btn btn-sm btn-primary">Cadastrar professores</a>
-      <div class="text-right">
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">Matrícula</th>
-              <th scope="col">Nome</th>
-              <th scope="col">Disciplina</th>
+      <b-col cols="4" class="text-right">
+        <a href="#!" class="btn btn-sm btn-primary">Cadastrar professores</a>
+        <div class="text-right">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Matrícula</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Disciplina</th>
               </tr>
-          </thead>
-        </table>
-      </div>
+            </thead>
+          </table>
+        </div>
         <!--<div id="app">
           <div class="col-2">
             <label>Nome</label>
@@ -54,8 +54,8 @@
                 </td>
               </tr>
             </tbody>
-          </table-->
-        </div>
+          </table
+        </div>-->
       </b-col>
     </b-row>
   </card>

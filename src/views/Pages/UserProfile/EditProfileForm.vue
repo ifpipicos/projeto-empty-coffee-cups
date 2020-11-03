@@ -23,8 +23,7 @@
             >
             </base-input>
           </b-col>
-        
-        
+
           <b-col lg="6">
             <base-input
               type="text"
@@ -34,8 +33,7 @@
             >
             </base-input>
           </b-col>
-        
-          
+
           <b-col lg="6">
             <base-input
               type="email"
@@ -46,12 +44,13 @@
             </base-input>
           </b-col>
         </b-row>
-      
 
-        <hr class="my-4">
-      
-        <h6 class="heading-small text-muted mb-4">Informações sobre o docente</h6>  
-    
+        <hr class="my-4" />
+
+        <h6 class="heading-small text-muted mb-4">
+          Informações sobre o docente
+        </h6>
+
         <b-row>
           <b-col lg="6">
             <base-input
@@ -72,10 +71,8 @@
             >
             </base-input>
           </b-col>
-        </b-row>  
+        </b-row>
       </div>
-
-
 
       <!--<hr class="my-4" />
 
