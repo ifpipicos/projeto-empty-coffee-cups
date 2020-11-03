@@ -6,19 +6,22 @@
       </b-col>
       <b-col cols="4" class="text-right">
         <a href="#!" class="btn btn-sm btn-primary">Cadastrar professores</a>
-        <div class="text-right">
-          <table class="table">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Matrícula</th>
-                <th scope="col">Nome</th>
-                <th scope="col">Disciplina</th>
-              </tr>
-            </thead>
-          </table>
-        </div>
-        <!--<div id="app">
+      </b-col>
+    </b-row>
+
+    <div class="text-right">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Matrícula</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Disciplina</th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+    <!--<div id="app">
           <div class="col-2">
             <label>Nome</label>
             <input v-model="contact.name" />
@@ -56,8 +59,6 @@
             </tbody>
           </table
         </div>-->
-      </b-col>
-    </b-row>
   </card>
 </template>
 <script>
