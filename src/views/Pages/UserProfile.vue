@@ -4,7 +4,7 @@
       class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center profile-header "
       style="min-height: 100px; background-image: url(img/theme/profile-cover.jpg); background-size: cover; background-position: center top;"
     >
-      <b-container fluid>
+     <b-container fluid>
         <!-- Mask -->
         <span class="mask bg-gradient-success opacity-8"></span>
         <!-- Header container -->
@@ -18,7 +18,7 @@
             </b-col>
           </b-row>
         </b-container> -->
-      </b-container>
+      </b-container> 
     </div>
 
     <b-container fluid class="mt--6">
@@ -28,7 +28,7 @@
           <user-card></user-card>
         </b-col>
         -->
-        <b-col xl="8" class="order-xl-1">
+        <b-col  class="order-xl-1">
           <edit-profile-form></edit-profile-form>
         </b-col>
       </b-row>
